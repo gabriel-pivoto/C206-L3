@@ -8,9 +8,11 @@ public class exercicio2
         double resultado = 1;
         double a = 0;
         char op;
-
+        System.out.println("Entre com o primeiro valor da operação: ");
         n1 = sc.nextInt();
+        System.out.println("Entre com o segundo valor da operação: ");
         n2 = sc.nextInt();
+        System.out.println("Entre com a operação que deseja realizar: ");
         op = sc.next().charAt(0);
 
         switch(op){
